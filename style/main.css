@@ -1,0 +1,501 @@
+#foobar {
+  display: none;
+}
+body {
+  font-family: "Geometria" !important;
+  font-size: 20px !important;
+  max-width: 1200px;
+  height: 100%;
+  font-weight: bold !important;
+}
+
+* button {
+  font-size: 30px !important;
+  font-weight: bold !important;
+}
+
+.mainblock {
+  width: 100%;
+  height: 100%;
+}
+.fon2 {
+  position: absolute;
+  z-index: 2;
+  width: 100%;
+  height: 2200px;
+  background-color: rgba(1, 1, 1, 0.3);
+}
+.fon1 {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 2200px;
+}
+
+.casebig {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+}
+
+.menu {
+  visibility: hidden;
+}
+
+.header {
+  position: fixed;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 13%;
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.header-case {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logo-href {
+  height: 100%;
+  width: 10%;
+}
+
+.logo-href1 {
+  width: 85%;
+  border-radius: 30px;
+}
+
+.logo-href:hover {
+  scale: 0.9;
+}
+
+.header-buttonscase {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+}
+.btn1-txt {
+  height: 50%;
+  font-size: 30px;
+}
+
+.btn1-txt:hover {
+  scale: 1.2;
+  color: rgb(155, 154, 154);
+}
+.btn1-txt {
+  font-family: "Geometria";
+  text-decoration: none;
+  color: black;
+}
+
+.header-buttonscase1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+  background-color: rgba(170, 169, 169, 0.7);
+  border-bottom-right-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+.btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35%;
+  height: 50%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.btn2:hover {
+  scale: 1.2;
+  background-color: antiquewhite;
+}
+
+.btn2-txt {
+  font-family: "Geometria";
+  text-decoration: none;
+  color: black;
+}
+
+.footer {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 13%;
+  border-top-right-radius: 40px;
+  border-top-left-radius: 40px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.logo-f {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  width: 8%;
+}
+.logo-f1 {
+  width: 80%;
+  border-radius: 30px;
+}
+
+.logo-f1:hover {
+  scale: 0.9;
+}
+
+.head-group1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 30%;
+  height: 80%;
+}
+.head-group1min {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 70%;
+}
+.group-p2-case {
+  color: black;
+}
+.group-p2 {
+  color: black;
+  text-decoration: none;
+}
+.group-p2t {
+  color: black;
+  text-decoration: none;
+}
+
+.group-p2:hover {
+  scale: 1.2;
+  color: rgb(155, 154, 154);
+}
+
+.group-p2t:hover {
+  scale: 1.2;
+  color: rgb(155, 154, 154);
+}
+
+.head-group2min {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70%;
+  width: 40%;
+}
+.group-p2-case1 {
+}
+.dop {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  height: 70%;
+}
+.mini-icon {
+  width: 30%;
+  height: 100%;
+}
+.mini-icon1 {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.mini-icon1:hover {
+  scale: 0.9;
+}
+
+.block2 {
+  margin-top: 250px;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  width: 100%;
+  height: 100%;
+}
+
+.case {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  border-radius: 40px;
+}
+
+.btn3-txt {
+  color: white;
+}
+
+.case-gray {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  width: 90%;
+  height: 90%;
+  background-color: rgb(170, 169, 169);
+  border-radius: 30px;
+}
+
+.case-gray1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 60%;
+  height: 55%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.case-gray1-png {
+  width: 75%;
+}
+
+.case-gray1-txt {
+  font-size: 30px;
+}
+
+.case-gray2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+  background-color: white;
+  border-radius: 30px;
+}
+
+.case-gray2-txt {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 740px) {
+  body {
+    font-family: "Geometria" !important;
+    font-size: 11px !important;
+    max-width: 1200px;
+    height: 100%;
+    font-weight: bold !important;
+  }
+  .menu-toggle {
+    display: block;
+    width: 30px;
+    height: 20px;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+  }
+
+  .bar {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #333;
+    margin: 5px auto;
+  }
+
+  .menu {
+    visibility: visible;
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 250px;
+    height: 100%;
+    background-color: #f4f4f4;
+    padding: 80px 0 0 20px;
+    transition: right 0.3s ease;
+  }
+
+  .menu.open {
+    right: 0;
+  }
+
+  .menu ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .menu ul li {
+    margin-bottom: 20px;
+  }
+
+  .menu ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 20px;
+  }
+
+  .header-buttonscase {
+    display: none;
+  }
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+
+  .close-button:before,
+  .close-button:after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+  }
+
+  .close-button:before {
+    transform: translateY(-50%) rotate(45deg);
+  }
+
+  .close-button:after {
+    transform: translateY(-50%) rotate(-45deg);
+  }
+
+  .logo-href {
+    height: 100%;
+    width: 20%;
+  }
+
+  .logo-href1 {
+    width: 85%;
+    border-radius: 30px;
+  }
+
+  .case-gray1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 75%;
+    height: 20%;
+    background-color: white;
+    border-radius: 30px;
+  }
+  .case-gray1-txt {
+    font-size: 13px;
+  }
+  .case-gray2-txt {
+    font-size: 14px;
+  }
+
+  .footer {
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    background-color: rgba(255, 255, 255, 0.6);
+  }
+
+  .logo-f {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    width: 20%;
+  }
+  .logo-f1 {
+    width: 80%;
+    border-radius: 30px;
+  }
+
+  .logo-f1:hover {
+    scale: 0.9;
+  }
+
+  .head-group1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 80%;
+  }
+  .head-group1min {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70%;
+  }
+  .group-p2-case {
+    color: black;
+    font-size: 12px;
+  }
+  .group-p2 {
+    color: black;
+    text-decoration: none;
+  }
+  .group-p2t {
+    color: black;
+    text-decoration: none;
+  }
+
+  .group-p2:hover {
+    scale: 1.2;
+    color: rgb(155, 154, 154);
+  }
+
+  .group-p2t:hover {
+    scale: 1.2;
+    color: rgb(155, 154, 154);
+  }
+
+  .head-group2min {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+    width: 40%;
+  }
+  .group-p2-case1 {
+  }
+  .dop {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    height: 70%;
+  }
+  .mini-icon {
+    width: 30%;
+    height: 100%;
+  }
+  .mini-icon1 {
+    width: 100%;
+    border-radius: 20px;
+  }
+
+  .mini-icon1:hover {
+    scale: 0.9;
+  }
+}
